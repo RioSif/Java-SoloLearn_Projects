@@ -1,5 +1,3 @@
-package Shapes;
-
 import java.util.Scanner;
 
 public class Program {
@@ -8,8 +6,8 @@ public class Program {
         int x = sc.nextInt();
         int y = sc.nextInt();
 
-        Shapes.Square a = new Shapes.Square(x);
-        Shapes.Circle b = new Shapes.Circle(y);
+        Square a = new Square(x);
+        Circle b = new Circle(y);
         a.area();
         b.area();
     }
