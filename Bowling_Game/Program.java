@@ -12,6 +12,6 @@ public class Program {
             int points = Integer.parseInt(values[1]);
             game.addPlayer(name, points);
         }
-        game.getWinner();
+        System.out.println(game.getWinner(game.players));
     }
 }
