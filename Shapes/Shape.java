@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Shapes;
 
 abstract class Shape {
     int width;
